@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: bll.ContactManagerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in bll.ContactManagerTest
+testCheckTelephone_nominal_enxx  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at bll.ContactManagerTest.testCheckTelephone_nominal_enxx(ContactManagerTest.java:98)
+
+testJolifie_nominal  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0 | Dupont | Jack | 0240367494 | jack.dupont@gmail.com> but was: <0 | Dupont | Jack | 0240367494 | jack.dupont@gmail.com | >
+	at bll.ContactManagerTest.testJolifie_nominal(ContactManagerTest.java:55)
+
+testIsValid_nominal  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at bll.ContactManagerTest.testIsValid_nominal(ContactManagerTest.java:121)
+
